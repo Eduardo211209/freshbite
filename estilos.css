@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+.descripcion {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.fila-ensaladas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.ensalada {
+  width: 30%;
+  background-color: #c6f6d5;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.imagen-ensalada {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #2d6a4f;
+}
+
+h2 {
+  color: #1b4332;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #2d6a4f;
+  margin-top: 10px;
+}
+.footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #e9f5ec;
+  border-top: 2px solid #a3d9a5;
+  font-size: 18px;
+  color: #1b4332;
+}
+
+.insta-link {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2d6a4f;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.insta-link:hover {
+  color: #40916c;
+}
+.encabezado {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #e9f5ec;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.fresh, .bite {
+  margin: 0;
+  font-size: 100px;
+  font-family: 'Arial Black', sans-serif;
+  color: #2d6a4f;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.logo {
+  max-width: 250px;
+  height: auto;
+}
+
+.descripcion.centrada {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 18px;
+  max-width: 700px;
+  color: #1b4332;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9f5ec;
+  padding: 30px 50px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 2px solid #a3d9a5;
+}
+
+.titulo-banner h1 {
+  font-size: 100px;
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+  color: #2d6a4f;
+  text-shadow: 3px 3px 5px rgba(16, 179, 179, 0.2), 
+               -2px -2px 4px rgba(158, 9, 9, 0.4);
+  letter-spacing: 2px;
+}
+
+.logo-banner img {
+  max-height: 250px;
+  width: auto;
+}
